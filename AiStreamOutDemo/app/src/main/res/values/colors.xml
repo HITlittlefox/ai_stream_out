@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="ai_eae7ff">#EAE7FF</color>
+    <color name="ai_f5f8fc">#F5F8FC</color>
+    <color name="ai_e5e1ff">#E5E1FF</color>
+    <color name="ai_403a53">#403A53</color>
+    <color name="ai_a283ff">#A283FF</color>
+    <color name="ai_a4c0ff">#A4C0FF</color>
+    <color name="ai_b5b5b5">#B5B5B5</color>
+    <color name="ai_f5f5f5">#F5F5F5</color>
+    <color name="ai_d1d1d1">#D1D1D1</color>
+    <color name="ai_c9c9c9">#C9C9C9</color>
+    <color name="ai_888888">#888888</color>
+    <color name="ai_232323">#232323</color>
+    <color name="ai_444444">#444444</color>
+    <color name="ai_f5f8fd">#F5F8FD</color>
+    <color name="ai_f0fcff">#F0FCFF</color>
+    <color name="ai_eaebef">#EAEBEF</color>
+    <color name="ai_d7ebff">#D7EBFF</color>
+    <color name="ai_2f7bff">#2F7BFF</color>
+    <color name="ai_ff7a3c">#FF7A3C</color>
+    <color name="ai_ffa047">#FFA047</color>
+    <color name="ai_f3f6fb">#F3F6FB</color>
+    <color name="ai_3d3d3d">#3D3D3D</color>
+    <color name="ai_f5ecff">#F5ECFF</color>
+
+    <color name="ai_669ee9">#669ee9</color>
+    <color name="ai_e98499">#e98499</color>
+    <color name="ai_33c6cd">#33c6cd</color>
+    <color name="ai_b878d6">#b878d6</color>
+    <color name="ai_e32424">#E32424</color>
+    <color name="ai_fbffa9">#FBFFA9</color>
+    <color name="ai_5ac0ff">#5AC0FF</color>
+    <color name="ai_66000000">#66000000</color>
+    <color name="ai_e8b44c">#E8B44C</color>
+    <color name="ai_fff8e4">#FFF8E4</color>
+    <color name="ai_6c9de0">#6C9DE0</color>
+    <color name="ai_a0a0a0">#A0A0A0</color>
+    <color name="ai_dde8f5">#DDE8F5</color>
+    <color name="ai_798699">#798699</color>
+    <color name="ai_eef5ff">#EEF5FF</color>
+    <color name="ai_f6fcff">#F6FCFF</color>
+    <color name="ai_ebebeb">#EBEBEB</color>
+    <color name="ai_5a5a5a">#5A5A5A</color>
+    <color name="ai_fe7467">#FE7467</color>
+    <color name="ai_ff785d">#FF785D</color>
+    <color name="ai_57667d">#57667D</color>
+    <color name="ai_7a7489">#7A7489</color>
+    <color name="ai_f3f1fc">#F3F1FC</color>
+    <color name="ai_f5f5f9">#F5F5F9</color>
+    <color name="ai_202f45">#202F45</color>
+    <color name="ai_9b9b9b">#9B9B9B</color>
+    <color name="ai_eefdff">#EEFDFF</color>
+    <color name="ai_ffffff">#FFFFFF</color>
+    <color name="ai_adabba">#ADABBA</color>
+    <color name="ai_b1cdfc">#B1CDFC</color>
+
+</resources>
