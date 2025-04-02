@@ -475,7 +475,7 @@ val Number.dpToPx
 
 /*converts sp value into px*/
 val Number.sp
-    get() = (this.toFloat() * Resources.getSystem().displayMetrics.scaledDensity).toInt()
+    get() = (this.toFloat() * Resources.getSystem().displayMetrics.scaledDensity).roundToInt()
 
 //</editor-fold>
 
