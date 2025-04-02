@@ -27,6 +27,7 @@ import io.reactivex.disposables.Disposable
 import io.reactivex.functions.Consumer
 import java.util.*
 import java.util.concurrent.TimeUnit
+import kotlin.math.roundToInt
 
 
 object AppKtx {
@@ -467,7 +468,7 @@ fun String?.getStringAfterDot(): String {
 
 /*converts dp value into px*/
 val Number.dpToPx
-    get() = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, this.toFloat(), Resources.getSystem().displayMetrics).toInt()
+    get() = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, this.toFloat(), Resources.getSystem().displayMetrics).roundToInt()
 
 //val Number.dpToPx
 //    get() = (this.toFloat() * Resources.getSystem().displayMetrics.density).toInt()
