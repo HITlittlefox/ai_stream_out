@@ -20,6 +20,8 @@ import java.util.concurrent.TimeUnit
  * 这个页面有多个延迟改变状态，是为了处理 rv中，不同输出时，ui上有大变动，  如果ui上，不需要大变动，那么可以自行修改是否需要延迟
  */
 class AiStreamOutHelper(val owner: LifecycleOwner) : LifecycleEventObserver {
+    private val COMMON_INTERVAL = 200L
+    
     private val handler = Handler(Looper.getMainLooper())
 
     /**
@@ -194,7 +196,7 @@ class AiStreamOutHelper(val owner: LifecycleOwner) : LifecycleEventObserver {
                             handler.postDelayed({
                                 stateType = AiChatStateType.think
                                 waitRefreshType = false
-                            }, 1000)
+                            }, COMMON_INTERVAL)
                         }
 
                     } else {
@@ -217,7 +219,7 @@ class AiStreamOutHelper(val owner: LifecycleOwner) : LifecycleEventObserver {
                                 stateType = AiChatStateType.reply_ing
                                 waitRefreshType = false
                                 outStream()
-                            }, 1000)
+                            }, COMMON_INTERVAL)
                         }
                     }
                 }
